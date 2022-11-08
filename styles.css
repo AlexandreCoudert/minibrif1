@@ -30,7 +30,7 @@ body,{
 
 /*------- Main -----------*/
 .main {
-    background: linear-gradient(#850606 83%, black 96%);
+    background: linear-gradient(#850606 83%, black 104%);
     height: 100%;
     display: flex;
     align-items: center;
@@ -115,6 +115,7 @@ body,{
     width: 5%;
     margin-right: -5px;
     margin-bottom: 2em;
+    display: flex;
 }
 
 .footer a{
@@ -141,13 +142,14 @@ body,{
     }
 
     .footer__fleche{
-        width: 4%;
+        width: 1em;
         margin-right: -7px;
-        margin-bottom: 2.5em;
+        margin-bottom: 6.5em;
+        display: flex;
+
     }
     .footer p{
-        margin-bottom: 2em;
+        margin-bottom: 5em;
     }
-
 
 }
